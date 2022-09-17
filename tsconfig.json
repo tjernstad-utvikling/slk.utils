@@ -12,6 +12,6 @@
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
   },
   "include": [
-    "src"
+    "src/**/*"
   ]
 }
