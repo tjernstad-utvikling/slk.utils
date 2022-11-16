@@ -1,8 +1,7 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.categories = void 0;
-const checkpointCategories_json_1 = __importDefault(require("./checkpointCategories.json"));
-exports.categories = [...checkpointCategories_json_1.default.categories];
+exports.ReportModules = exports.categories = void 0;
+const report_1 = require("./contracts/report");
+Object.defineProperty(exports, "ReportModules", { enumerable: true, get: function () { return report_1.ReportModules; } });
+const checkpoint_1 = require("./data/checkpoint");
+Object.defineProperty(exports, "categories", { enumerable: true, get: function () { return checkpoint_1.categories; } });

@@ -1,10 +1,3 @@
-export declare const categories: Category[];
-interface Category {
-    key: string;
-    name: string;
-    groups: {
-        key: number;
-        name: string;
-    }[];
-}
-export {};
+import { ReportModules } from "./contracts/report";
+import { categories } from "./data/checkpoint";
+export { categories, ReportModules };

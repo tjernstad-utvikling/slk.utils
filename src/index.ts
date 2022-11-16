@@ -1,12 +1,4 @@
-import data from "./checkpointCategories.json";
+import { ReportModules } from "./contracts/report";
+import { categories } from "./data/checkpoint";
 
-export const categories: Category[] = [...data.categories];
-
-interface Category {
-  key: string;
-  name: string;
-  groups: {
-    key: number;
-    name: string;
-  }[];
-}
+export { categories, ReportModules };
