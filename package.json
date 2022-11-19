@@ -6,8 +6,8 @@
   "scripts": {
     "build": "npx tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ole Tjernstad",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.8.3"
   }
