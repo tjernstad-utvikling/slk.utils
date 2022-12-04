@@ -6,3 +6,7 @@ export interface Category {
         name: string;
     }[];
 }
+export declare enum CheckpointMode {
+    default = "default",
+    markCompleted = "markCompleted"
+}
