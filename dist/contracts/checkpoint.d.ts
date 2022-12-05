@@ -10,3 +10,6 @@ export declare enum CheckpointMode {
     default = "default",
     markCompleted = "markCompleted"
 }
+export declare enum ChecklistStatus {
+    completed = "completed"
+}
