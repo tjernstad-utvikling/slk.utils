@@ -12,5 +12,6 @@ export declare enum ReportModules {
     skjemaItemSplit = "skjemaItemSplit",
     measurementPage = "measurementPage",
     inlineMeasurementModule = "inlineMeasurementModule",
-    attachmentModule = "attachmentModule"
+    attachmentModule = "attachmentModule",
+    infoAttachmentModule = "infoAttachmentModule"
 }

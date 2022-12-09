@@ -17,4 +17,5 @@ var ReportModules;
     ReportModules["measurementPage"] = "measurementPage";
     ReportModules["inlineMeasurementModule"] = "inlineMeasurementModule";
     ReportModules["attachmentModule"] = "attachmentModule";
+    ReportModules["infoAttachmentModule"] = "infoAttachmentModule";
 })(ReportModules = exports.ReportModules || (exports.ReportModules = {}));

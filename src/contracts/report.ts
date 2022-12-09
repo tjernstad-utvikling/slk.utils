@@ -13,4 +13,5 @@ export enum ReportModules {
   measurementPage = "measurementPage",
   inlineMeasurementModule = "inlineMeasurementModule",
   attachmentModule = "attachmentModule",
+  infoAttachmentModule = "infoAttachmentModule",
 }
