@@ -2,6 +2,12 @@ import { ChecklistStatus, CheckpointMode } from "./contracts/checkpoint";
 
 import { ReportModules } from "./contracts/report";
 import { categories } from "./data/checkpoint";
-import { types } from "./data/measurementTypes.json";
+import { measurementTypes } from "./data/measurement";
 
-export { categories, ReportModules, CheckpointMode, ChecklistStatus, types };
+export {
+  categories,
+  ReportModules,
+  CheckpointMode,
+  ChecklistStatus,
+  measurementTypes,
+};
