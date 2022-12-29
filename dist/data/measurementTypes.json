@@ -1,0 +1,74 @@
+{
+    "types": [
+        {
+            "id": "1",
+            "shortName": "kont",
+            "longName": "Kontinuitet",
+            "enhet": "ohm",
+            "hasPol": "0"
+        },
+        {
+            "id": "2",
+            "shortName": "iso",
+            "longName": "Isolasjonsmåling",
+            "enhet": "Mohm",
+            "hasPol": "0"
+        },
+        {
+            "id": "3",
+            "shortName": "ikmin",
+            "longName": "Ik#min",
+            "enhet": "A",
+            "hasPol": "1"
+        },
+        {
+            "id": "4",
+            "shortName": "ikmaks",
+            "longName": "Ik#maks",
+            "enhet": "kA",
+            "hasPol": "1"
+        },
+        {
+            "id": "5",
+            "shortName": "rcd",
+            "longName": "Utkoblingstid jordfeilbrytere",
+            "enhet": "ms",
+            "hasPol": "0"
+        },
+        {
+            "id": "6",
+            "shortName": "rcds",
+            "longName": "Utkoblingsstrøm jordfeilbrytere",
+            "enhet": "mA",
+            "hasPol": "0"
+        },
+        {
+            "id": "7",
+            "shortName": "spenning",
+            "longName": "Spenning",
+            "enhet": "V",
+            "hasPol": "0"
+        },
+        {
+            "id": "8",
+            "shortName": "lekk",
+            "longName": "Lekkasjestrøm",
+            "enhet": "mA",
+            "hasPol": "0"
+        },
+        {
+            "id": "10",
+            "shortName": "gulv",
+            "longName": "Gulvresistans",
+            "enhet": "Mohm",
+            "hasPol": "0"
+        },
+        {
+            "id": "11",
+            "shortName": "re",
+            "longName": "Overgangsmotstand til jord",
+            "enhet": "ohm",
+            "hasPol": "0"
+        }
+    ]
+}
