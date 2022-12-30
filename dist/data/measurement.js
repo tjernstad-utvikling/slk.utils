@@ -37,8 +37,8 @@ exports.measurementsExtendedDataTitles = {
         parameters: {
             name: "Parametre",
             data: {
-                "uIso ": "Uiso ",
-                typeIsos: "Type Riso",
+                uIso: "Uiso ",
+                typeIso: "Type Riso",
             },
         },
     },
@@ -58,7 +58,7 @@ exports.measurementsExtendedDataTitles = {
         parameters: {
             name: "Parametre",
             data: {
-                "RCDStandard ": "RCD standard",
+                RCDStandard: "RCD standard",
                 iDn: "I dN",
                 selectivity: "Selektivitet",
                 type: "Type",
@@ -82,7 +82,7 @@ exports.measurementsExtendedDataTitles = {
         parameters: {
             name: "Parametre",
             data: {
-                "RCDStandard ": "RCD standard",
+                RCDStandard: "RCD standard",
                 iDn: "I dN",
                 selectivity: "Selektivitet",
                 type: "Type",
@@ -109,7 +109,7 @@ exports.measurementsExtendedDataTitles = {
         parameters: {
             name: "Parametre",
             data: {
-                "fuseI ": "Sikring I",
+                fuseI: "Sikring I",
                 fuseT: "Sikring t ",
                 iscFactor: "Isc faktor",
                 fuseType: "Sikringstype",
