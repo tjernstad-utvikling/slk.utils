@@ -1,6 +1,6 @@
 {
   "name": "@slk/utils",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "utils files for sluttkontroll project",
   "main": "dist/index.js",
   "scripts": {
