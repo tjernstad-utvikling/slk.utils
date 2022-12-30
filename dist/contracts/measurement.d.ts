@@ -7,19 +7,19 @@ export interface MeasurementType {
 }
 export interface MeasurementExtendedDataTitle {
     kont: {
-        subResults: {
+        subResults?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        limits: {
+        limits?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        parameters: {
+        parameters?: {
             name: string;
             data: {
                 [key: string]: string;
@@ -27,19 +27,19 @@ export interface MeasurementExtendedDataTitle {
         };
     };
     iso: {
-        subResults: {
+        subResults?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        limits: {
+        limits?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        parameters: {
+        parameters?: {
             name: string;
             data: {
                 [key: string]: string;
@@ -47,19 +47,19 @@ export interface MeasurementExtendedDataTitle {
         };
     };
     rcds: {
-        subResults: {
+        subResults?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        limits: {
+        limits?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        parameters: {
+        parameters?: {
             name: string;
             data: {
                 [key: string]: string;
@@ -67,19 +67,19 @@ export interface MeasurementExtendedDataTitle {
         };
     };
     rcd: {
-        subResults: {
+        subResults?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        limits: {
+        limits?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        parameters: {
+        parameters?: {
             name: string;
             data: {
                 [key: string]: string;
@@ -87,19 +87,19 @@ export interface MeasurementExtendedDataTitle {
         };
     };
     ikmin: {
-        subResults: {
+        subResults?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        limits: {
+        limits?: {
             name: string;
             data: {
                 [key: string]: string;
             };
         };
-        parameters: {
+        parameters?: {
             name: string;
             data: {
                 [key: string]: string;

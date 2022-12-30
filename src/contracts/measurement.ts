@@ -8,71 +8,71 @@ export interface MeasurementType {
 
 export interface MeasurementExtendedDataTitle {
   kont: {
-    subResults: {
+    subResults?: {
       name: string;
       data: { [key: string]: string };
     };
-    limits: {
+    limits?: {
       name: string;
       data: { [key: string]: string };
     };
-    parameters: {
+    parameters?: {
       name: string;
       data: { [key: string]: string };
     };
   };
   iso: {
-    subResults: {
+    subResults?: {
       name: string;
       data: { [key: string]: string };
     };
-    limits: {
+    limits?: {
       name: string;
       data: { [key: string]: string };
     };
-    parameters: {
+    parameters?: {
       name: string;
       data: { [key: string]: string };
     };
   };
   rcds: {
-    subResults: {
+    subResults?: {
       name: string;
       data: { [key: string]: string };
     };
-    limits: {
+    limits?: {
       name: string;
       data: { [key: string]: string };
     };
-    parameters: {
+    parameters?: {
       name: string;
       data: { [key: string]: string };
     };
   };
   rcd: {
-    subResults: {
+    subResults?: {
       name: string;
       data: { [key: string]: string };
     };
-    limits: {
+    limits?: {
       name: string;
       data: { [key: string]: string };
     };
-    parameters: {
+    parameters?: {
       name: string;
       data: { [key: string]: string };
     };
   };
   ikmin: {
-    subResults: {
+    subResults?: {
       name: string;
       data: { [key: string]: string };
     };
-    limits: {
+    limits?: {
       name: string;
       data: { [key: string]: string };
     };
-    parameters: {
+    parameters?: {
       name: string;
       data: { [key: string]: string };
     };
