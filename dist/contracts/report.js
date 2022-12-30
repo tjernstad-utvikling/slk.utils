@@ -16,6 +16,7 @@ var ReportModules;
     ReportModules["skjemaItemSplit"] = "skjemaItemSplit";
     ReportModules["measurementPage"] = "measurementPage";
     ReportModules["inlineMeasurementModule"] = "inlineMeasurementModule";
+    ReportModules["extendedMeasurementModule"] = "extendedMeasurementModule";
     ReportModules["attachmentModule"] = "attachmentModule";
     ReportModules["infoAttachmentModule"] = "infoAttachmentModule";
 })(ReportModules = exports.ReportModules || (exports.ReportModules = {}));
